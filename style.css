@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+
+h1 {
+    font-family: 'Patrick Hand', cursive;
+    text-align: center;
+    margin: 12px auto 12px auto;
+    background-color: #973636;
+    width: 300px;
+    color: white;
+    border-radius: 12px;
+
+}
+
+#container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    width: 820px;
+    height: 520px;
+    border-radius: 40px;
+    background-color: #973636;
+}
+
+#grid {
+    display: grid;
+    gap: 1px;
+    width: 450px;
+    height: 450px;
+    background-color: grey;
+    border: 5px double black;
+    border-radius: 5px;
+}
+
+#menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+input[type='color'] {
+    -webkit-appearance: none;
+    width: 85px;
+    height: 85px;
+    border: none;
+    border-radius: 50px;
+}
+
+  
+input[type='color']::-webkit-color-swatch {
+    border: none;
+    border-radius: 50px;
+}
+
+button {
+    background-color: rgb(99, 119, 231);
+    color: white;
+    border: 2px solid rgb(99, 119, 231);
+    border-radius: 7px;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 18px;
+    font-weight: 700;
+    height: 40px;
+    width: 130px;
+}
+
+button:hover {
+    background-color: rgb(70, 84, 168);
+    font-size: 20px;
+}
+
+button:active {
+    background-color: rgb(99, 119, 231);
+    font-size: 18px;
+}
+
+#textRange {
+    text-align: center;
+    color: white;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+

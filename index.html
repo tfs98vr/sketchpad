@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Etch-a-Sketch</title>
+        <meta charset="UTF-8">
+        <script src="script.js" defer></script>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <h1>ETCH-A-SKETCH</h1>
+        <div id="container">
+            <div id="menu">
+                <input type="color" id="color">
+                <button type="button" id="randomButton">RANDOM MODE</button>
+                <button type="button" id="clear">CLEAR</button>
+                <div id="rangeDiv">
+                    <input type="range" id="range" min="2" max="50" value="16">
+                    <p id="textRange"></p>
+                </div>
+            </div>
+
+            <div id="grid"></div>
+        </div>
+    </body>
+</html>
